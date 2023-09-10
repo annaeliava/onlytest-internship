@@ -1,0 +1,131 @@
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+body {
+    width: 1920px;
+    height: 1080px;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+}
+
+.img {
+    width: 1920px;
+    height: 1080px;
+    object-fit: cover;
+
+}
+
+.btn {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    border: none;
+    height: 41px;
+    cursor: pointer;
+    background-color: #6ABF4B;
+    z-index: 100;
+}
+
+.btn__opened {
+    width: max-content; 
+    border-radius: 40px;
+}
+
+#btn__opened__info {
+    padding: 11px 15px;
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+.btn__hide,
+.btn__location {
+    font-family: Arial;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: normal;
+    color: white;
+}
+
+.btn__closed {
+    width: 41px;
+    border-radius: 100%;
+}
+
+#btn__closed__info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    font-size: larger;
+    color: white;
+}
+
+.parking,
+.bridge, 
+.apartments,
+.stadium__entrance,
+.train__station,
+.mall__two {
+    background-color: #3877EE;
+}
+
+.stadium {
+    top: 482px;
+    left: 687px;
+}
+
+.parking {
+    top: 282px;
+    left: 580px;
+}
+
+.bridge {
+    top: 714px;
+    left: 446px;
+}
+
+.apartments {
+    top: 225px;
+    left: 1373px;
+}
+
+.hotel {
+    top: 790px;
+    left: 1107px;
+}
+
+.ticket__office {
+    top: 404px;
+    left: 1148px;
+}
+
+.stadium__entrance {
+    top: 629px;
+    left: 1081px;
+}
+
+.train__station {
+    top: 475px;
+    left: 1414px;
+}
+
+.mall__one {
+    top: 669px;
+    left: 1306px;
+}
+
+.mall__two {
+    top: 713px;
+    left: 1593px;
+}
